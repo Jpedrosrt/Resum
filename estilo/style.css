@@ -2,6 +2,7 @@ body {
     overflow: hidden;
     background-image: linear-gradient(60deg, #223446, #30464D, #58767B, #6E807E);
     background-attachment: fixed;
+    user-select: none;
 }
 
 .menu_botao {
