@@ -1,39 +1,22 @@
+@import "nav.css";
+@import "fonts.css";
+
+:root {
+    --cor0: #223446;
+    --cor1: #30464D;
+    --cor2: #58767B;
+    --cor3: #6E807E;
+    --cor4: #6DA5DE;
+    --cor5: #0F1A20;
+
+    --font01: 'Ubuntu', sans-serif;
+}
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5rem;
-    color: #fff;
-    border: 3px solid #fff;
-    padding: 2rem 4rem;
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(45deg, #223446, #30464D, #58767B, #6E807E);
-    background-size: 700% 700%;
-    animation: colors 15s ease infinite;
-}
-
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+a {
+    text-decoration: none;
 }
