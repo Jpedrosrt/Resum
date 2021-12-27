@@ -11,17 +11,18 @@
 </head>
 <body>
     <header class="header">
+        <a class="header_name" href="#">João Pedro</a>
         <nav class="header_nav">
-            <a class="header_nav_name" href="#">João Pedro</a>
-            <div class="header_nav_list_menu_mobile">
-            </div>
-            <ul class="header_nav_list">
+            <button aria-label="Abrir Menu" class="header_nav_btn" aria-controls="menu" aria-haspopup="true" aria-expanded="false">Menu
+                <span class="burger"></span>
+            </button>
+            <ul class="header_nav_list" role="menu">
                 <li>
                     <a class="header_nav_list_link"
                     href="www.google.com.br">Home</a>
                 </li>
                 <li>
-                    <a class="header_nav_list_link" href="#">Portfolio</a>
+                    <a class="header_nav_list_link" href="#">Portfólio</a> <!-- cLASS-->
                 </li>
                 <li>
                     <a class="header_nav_list_link" href="#">Contato</a>
@@ -30,32 +31,36 @@
         </nav>
     </header>
     <main>
-        <h2>Oi, Eu sou o João Pedro</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia temporibus sunt unde ipsam voluptatum excepturi iusto possimus eum, minus obcaecati maiores nesciunt ea blanditiis dolore velit cupiditate, eveniet omnis.</p>
-        <img src="img/adult_man.png" alt="foto">
-        <h3>Educação</h3>
-        <ul>
-            <li>Universidade Federal de Sergipe - UFS</li>
-            <li>Curso: Engenharia de Computação</li>
-            <li>Prazo para Conclusão: 2028</li>
-        </ul>
-        <nav>
+        <div class="home">
+            <h2>Oi, Eu sou o João Pedro</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia temporibus sunt unde ipsam voluptatum excepturi iusto possimus eum, minus obcaecati maiores nesciunt ea blanditiis dolore velit cupiditate, eveniet omnis.</p>
+            <img src="img/adult_mn.png" alt="foto">
+            <h3>Educação</h3>
             <ul>
-                <li>
-                    <a class="link" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-0055b2225/" target="_blank" rel="external"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                    <a class="link" href="mailto:j0310pedro@gmail.com"><i class="far fa-envelope"></i></a>
-                </li>
-                <li>
-                    <a class="link" href="https://github.com/Jpedrosrt" target="_blank" rel="external"><i class="fab fa-github"></i></a>
-                </li>  
+                <li>Universidade Federal de Sergipe - UFS</li>
+                <li>Curso: Engenharia de Computação</li>
+                <li>Prazo para Conclusão: 2028</li>
             </ul>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="link" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-0055b2225/" target="_blank" rel="external"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a class="link" href="mailto:j0310pedro@gmail.com"><i class="far fa-envelope"></i></a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://github.com/Jpedrosrt" target="_blank" rel="external"><i class="fab fa-github"></i></a>
+                    </li>  
+                </ul>
         </nav>
+        </div>
     </main>
     <footer>
 
     </footer>
-    <script src="js/menu_mobile.js"></script>
+    <script src="menu.js">
+
+    </script>
 </body>
 </html>

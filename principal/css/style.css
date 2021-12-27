@@ -9,12 +9,13 @@
     --cor4: #6DA5DE;
     --cor5: #0F1A20;
 
-    --font01: 'Ubuntu', sans-serif;
+    --font1: 'Ubuntu', sans-serif;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--font1);
 }
 
 a {
