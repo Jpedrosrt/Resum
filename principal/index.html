@@ -10,11 +10,15 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <header class="header">
+    <header class="header not_active">
         <a class="header_name" href="#">João Pedro</a>
-        <nav class="header_nav">
-            <button aria-label="Abrir Menu" class="header_nav_btn" aria-controls="menu" aria-haspopup="true" aria-expanded="false">Menu
-                <span class="burger"></span>
+        <nav class="header_nav not_active">
+            <button aria-label="Abrir Menu" class="header_nav_btn" aria-controls="menu" aria-haspopup="true" aria-expanded="false">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </button>
             <ul class="header_nav_list" role="menu">
                 <li>
@@ -31,7 +35,7 @@
         </nav>
     </header>
     <main>
-        <div class="home">
+        <section class="home">
             <h2>Oi, Eu sou o João Pedro</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia temporibus sunt unde ipsam voluptatum excepturi iusto possimus eum, minus obcaecati maiores nesciunt ea blanditiis dolore velit cupiditate, eveniet omnis.</p>
             <img src="img/adult_mn.png" alt="foto">
@@ -53,8 +57,8 @@
                         <a class="link" href="https://github.com/Jpedrosrt" target="_blank" rel="external"><i class="fab fa-github"></i></a>
                     </li>  
                 </ul>
-        </nav>
-        </div>
+            </nav>
+        </section>
     </main>
     <footer>
 
