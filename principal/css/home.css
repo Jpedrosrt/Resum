@@ -1,0 +1,21 @@
+.resume {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 750px;
+}
+
+.resume h2 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    color: var(--cor0);
+}
+
+.resume p {
+    color: var(--cor3);
+    font-size: 20px;
+}
+
+.resume img {
+    margin: auto;
+}

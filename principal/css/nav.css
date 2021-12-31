@@ -125,19 +125,14 @@
 
 @media (max-width: 600px) {
     .header_nav_btn {
-        background-color: var(--cor4);
+        background-color: var(--cor0);
         background-position: right;
-        color: var(--cor0);
+        color: var(--cor4);
         display: flex;
         padding: .5rem;
         border: none;
         cursor: pointer;
         border-radius: 3px;
-    }
-
-    .header_nav.active .header_nav_btn {
-        background-color: var(--cor0);
-        color: var(--cor4);
     }
 
     .header_nav_btn span {
