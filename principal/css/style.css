@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "fonts.css";
 @import "home.css";
+@import "portfolio.css";
 
 :root {
     --cor0: #223446;
@@ -17,6 +18,7 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--font1);
+    -webkit-tap-highlight-color: transparent;
 }
 
 a {

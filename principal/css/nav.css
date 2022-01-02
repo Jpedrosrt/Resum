@@ -123,7 +123,7 @@
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .header_nav_btn {
         background-color: var(--cor0);
         background-position: right;
