@@ -14,11 +14,19 @@
     --font1: 'Ubuntu', sans-serif;
 }
 
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: var(--font1);
     -webkit-tap-highlight-color: transparent;
+}
+
+main {
+    display: grid;
+    background-image: url('../img/background_1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a {
