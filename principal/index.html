@@ -7,8 +7,71 @@
     <title>João Pedro</title>
     <link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <h1>¯\(°_o)/¯</h1>
+    <header class="header not_active">
+        <a class="header_name" href="#">João Pedro</a>
+        <nav class="header_nav not_active">
+            <button aria-label="Abrir Menu" class="header_nav_btn" aria-controls="menu" aria-haspopup="true" aria-expanded="false">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <ul class="header_nav_list" role="menu">
+                <li>
+                    <a class="header_nav_list_link"
+                    href="#">Home</a>
+                </li>
+                <li>
+                    <a class="header_nav_list_link" href="#">Portfólio</a> <!-- cLASS-->
+                </li>
+                <li>
+                    <a class="header_nav_list_link" href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+                <div class="resume">
+                    <div id="profile_img"></div>
+                    <h2>Olá,</h2>
+                    <h3>Sobre mim:</h3>
+                    <p>Eu sou estudante de Engenharia da Computação na UFS e atualmente eu estou aprendendo HTML5, CSS3 e algumas linguagens de programação como JavaScript e Python </p>
+                </div>
+                <div class="edu">
+                    <hr>
+                    <h4>Educação</h4>
+                    <ul id="fac">
+                        <li><span class="black">Universidade Federal de Sergipe - UFS</span></li>
+                        <li><span class="black">Curso:</span> Engenharia de Computação</li>
+                        <li>2021 - Atualmente</li>
+                    </ul>
+                    <ul id="links">
+                        <li>
+                            <a class="link" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-0055b2225/" target="_blank" rel="external"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a class="link" href="mailto:j0310pedro@gmail.com"><i class="far fa-envelope"></i></a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://github.com/Jpedrosrt" target="_blank" rel="external"><i class="fab fa-github"></i></a>
+                        </li>  
+                    </ul>
+                </div>
+        </section>
+        <section class="portfolio">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/menu.js">
+
+    </script>
 </body>
 </html>
