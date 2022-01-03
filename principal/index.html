@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class=".html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <header class="header not_active">
+    <header class="header not_active fixed">
         <a class="header_name" href="#">João Pedro</a>
         <nav class="header_nav not_active">
             <button aria-label="Abrir Menu" class="header_nav_btn" aria-controls="menu" aria-haspopup="true" aria-expanded="false">
@@ -26,7 +26,7 @@
                     href="#">Home</a>
                 </li>
                 <li>
-                    <a class="header_nav_list_link" href="#">Portfólio</a> <!-- cLASS-->
+                    <a class="header_nav_list_link" href="#portfolio">Portfólio</a> <!-- cLASS-->
                 </li>
                 <li>
                     <a class="header_nav_list_link" href="#">Contato</a>
@@ -63,7 +63,7 @@
                     </ul>
                 </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <h2>Portfólio</h2>
             <div class="projects">
                 <hr>
@@ -77,8 +77,7 @@
     <footer>
 
     </footer>
-    <script src="js/menu.js">
-
-    </script>
+    <script src="js/menu.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>

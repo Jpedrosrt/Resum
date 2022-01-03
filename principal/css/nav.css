@@ -91,6 +91,17 @@
     background: var(--cor0);
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.267);
     margin-bottom: 0px;
+    position: fixed;
+}
+
+.header.not_active.fixed {
+    transition: ease-in-out 3s;
+    opacity: 0;
+}
+
+.header.fixed:hover {
+    transition: 0s;
+    opacity: 1;
 }
 
 .header_name {
@@ -203,7 +214,10 @@
         background: var(--cor4);
         color: var(--cor0);
         border-radius: 3px;
-        
+    }
+
+    .header_nav.active .header {
+        opacity: 1;
     }
 
 }
