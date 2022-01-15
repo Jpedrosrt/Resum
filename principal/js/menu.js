@@ -1,4 +1,5 @@
 const btnMobile = document.querySelector('.header_nav_btn');
+const navlinks = document.querySelectorAll('.header_nav_list_link');
 
 function toggleMenu(event) {
     if (event.type === 'touchstart') event.preventDefault();
@@ -20,3 +21,6 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
+for (let i = 0; i < navlinks.length; i++) {
+    navlinks[i].addEventListener("click", toggleMenu);
+}
