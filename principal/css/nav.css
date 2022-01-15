@@ -95,7 +95,7 @@
 }
 
 .header.not_active.fixed {
-    transition: ease-in-out 3s;
+    transition: 3s;
     opacity: 0;
 }
 
@@ -135,7 +135,11 @@
     display: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
+    .header.not_active.fixed {
+        opacity: 1;
+    }
+    
     .header_nav_btn {
         background-color: var(--cor0);
         background-position: right;
