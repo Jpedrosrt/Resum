@@ -3,7 +3,7 @@
     background: linear-gradient(#22344665, #22344638, #2234460c,  #22344638, #22344665);
 }
 
-.contato {
+.contato { /* REMOVER DEPOIS */
     height: 1000px;
     background-color: white;
 }
@@ -17,5 +17,5 @@
 
 .projects {
     margin: auto;
-    
+    width: 800px; /* !!!!!!! */
 }
