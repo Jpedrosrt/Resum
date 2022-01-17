@@ -1,5 +1,6 @@
 .portfolio {
-    height: 1000px; /* temporario */
+    height: fit-content;
+    padding-bottom: 5%;
     background: linear-gradient(#22344665, #22344638, #2234460c,  #22344638, #22344665);
 }
 
@@ -13,9 +14,105 @@
     color: var(--cor4);
     text-align: center;
     padding: 10px;
+    z-index: 100;
 }
 
 .projects {
+    width: 90%;
     margin: auto;
-    /* width: 800px;  !!!!!!! */
+}
+
+.container {
+    z-index: 50;
+    display: table;
+}
+
+.project {
+    display: inline-table;
+    margin: 4%;
+    width: 40%;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+.pr0 {
+    background-image: url(../img/projeto0.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.detalhes {
+    color: var(--cor4);
+    text-align: center;
+    margin: auto;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.829);
+    transition: 1s;
+    overflow: hidden;
+}
+
+.project:hover .detalhes {
+    visibility: visible;
+    height: 100%;
+}
+
+.title {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 300%;
+    transition: 1s;
+    white-space: nowrap;
+}
+
+.project:hover .title {
+    margin-left: 0;
+}
+
+.text {
+    font-size: 1.3em;
+    width: 80%;
+    margin: auto;
+}
+
+.text p {
+    padding: 10px;
+}
+
+.text hr {
+    width: 0;
+    transition: 1s;
+    margin: auto;
+}
+
+.project:hover .text hr{
+    width: 100%;
+}
+
+.btnpro {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--cor5);
+    width: 100%;
+    height: 0;
+    font-size: 1.8em;
+    visibility: hidden;
+    transition: height 1s;
+    overflow: hidden;
+}
+
+.btnpro:hover {
+    background-color: var(--cor4);
+    color: var(--cor5);
+}
+
+.project:hover .btnpro{
+    visibility: visible;
+    height: 20%;
+}
+
+.btnpro i {
+    margin-top: 3%;
 }
