@@ -14,7 +14,6 @@
     color: var(--cor4);
     text-align: center;
     padding: 10px;
-    z-index: 100;
 }
 
 .projects {
@@ -23,17 +22,17 @@
 }
 
 .container {
-    z-index: 50;
     display: table;
 }
 
 .project {
     display: inline-table;
-    margin: 4%;
+    margin: 5%;
     width: 40%;
     height: 300px;
     background-color: red;
     position: relative;
+    z-index: 0;
 }
 
 .pr0 {
@@ -115,4 +114,68 @@
 
 .btnpro i {
     margin-top: 3%;
+}
+
+@media (max-width: 650px) {
+
+    .projects {
+        width: 90%;
+        margin: auto;
+    }
+
+    .project {
+        display: inline-table;
+        margin-top: 5%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-bottom: calc(300px + 5%);
+        width: 95%;
+        height: 300px;
+        background-color: red;
+        position: relative;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .detalhes {
+        position: relative;
+        top: 300px;
+        color: var(--cor4);
+        text-align: center;
+        margin: auto;
+        height: 100%;
+        background-color: var(--cor5);
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    .title {
+        font-size: 1.6em;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .text {
+        font-size: 1.1em;
+        width: 90%;
+    }
+
+    .text hr {
+        width: 100%;
+    }
+
+    .btnpro {
+        position: absolute;
+        bottom: 0;
+        background-color: var(--cor4);
+        color: var(--cor5);
+        width: 100%;
+        height: 20%;
+        font-size: 1.8em;
+        visibility: visible;
+    }
+
+    .btnpro:hover {
+        background-color: var(--cor5);
+        color: var(--cor4);
+    }
 }
