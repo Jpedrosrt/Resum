@@ -1,4 +1,34 @@
 .contato { /* REMOVER DEPOIS */
-    height: 1000px;
-    background-color: white;
+    height: fit-content;
+    background-color: var(--cor0);
+    margin: 0;
+}
+
+#linksfooter {
+    list-style: none;
+    font-size: 35px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+    justify-content: center;
+}
+
+.link {
+    padding: 10px 0px;
+}
+
+.link a{
+    color: var(--cor4);
+}
+
+
+.link:hover a {
+    color: var(--cor3);
+}
+
+@media (max-width: 650px) {
+    #linksfooter {
+        font-size: 1.2em;
+    }
 }

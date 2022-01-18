@@ -2,6 +2,7 @@
     height: fit-content;
     padding-bottom: 5%;
     background: linear-gradient(#22344665, #22344638, #2234460c,  #22344638, #22344665);
+    overflow-x: hidden;
 }
 
 .portfolio h2 {
@@ -150,7 +151,7 @@
     }
 
     .title {
-        font-size: 1.6em;
+        font-size: 1.4em;
         margin-bottom: 25px;
         margin-top: 20px;
         margin-left: 0;
