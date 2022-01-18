@@ -42,6 +42,13 @@
     background-repeat: no-repeat;
 }
 
+.pr1 {
+    background-image: url(../img/projeto1.png);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .detalhes {
     color: var(--cor4);
     text-align: center;
