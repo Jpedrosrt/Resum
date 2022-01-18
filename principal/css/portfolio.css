@@ -4,11 +4,6 @@
     background: linear-gradient(#22344665, #22344638, #2234460c,  #22344638, #22344665);
 }
 
-.contato { /* REMOVER DEPOIS */
-    height: 1000px;
-    background-color: white;
-}
-
 .portfolio h2 {
     font-size: 3em;
     color: var(--cor4);
