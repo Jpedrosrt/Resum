@@ -1,0 +1,13 @@
+.game {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.game:hover {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}

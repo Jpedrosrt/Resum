@@ -14,7 +14,7 @@
     float: left;
     margin: 0px 30px;
     border-radius: 50%;
-    box-shadow: inset 0 0 0px 10px rgba(255, 255, 255, 0.507);
+    box-shadow: inset 0 0 0px 10px #6da6de54;
     background-image: url(../img/foto.png);
 }
 

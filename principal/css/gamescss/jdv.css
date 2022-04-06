@@ -1,0 +1,26 @@
+.game {
+    display: table;
+    width: 318px;
+    margin: auto;
+    border: solid 3px #6DA5DE;
+    border-radius: 5px;
+}
+
+.box {
+    border: solid 3px #6DA5DE;
+    width: 100px;
+    height: 100px;
+    float: left; 
+}
+
+.box:hover {
+    background: #6da6de6b;
+    cursor: pointer;
+}
+
+.box p {
+    text-align: center;
+    font-size: 60px;
+    margin: 15px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
