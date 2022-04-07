@@ -1,3 +1,6 @@
+const options = window.document.querySelectorAll('.btn')
+
+
 const box = window.document.querySelectorAll('.box')
 
 const paragrafo = document.createElement("p");
