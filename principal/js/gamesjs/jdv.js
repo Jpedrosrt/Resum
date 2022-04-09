@@ -1,4 +1,9 @@
-const options = window.document.querySelectorAll('.btn')
+const btn = window.document.querySelectorAll('.btn')
+for (var i = 0; i < btn.length; i++) {
+    
+    btn[i].addEventListener('click', (e) => (e.target.classList)? e.target.classList.add("op") : e.target.className += "op")
+}
+
 
 
 const box = window.document.querySelectorAll('.box')

@@ -3,7 +3,6 @@
     height: 100px;
     display: flex;
     margin: 20px auto;
-
 }
 
 .seta {
@@ -33,6 +32,11 @@
     color: #ff96ad;
     top: -5px;
     left: -5px;
+}
+
+.btn-1:target {
+    color: #d60a0a;
+    text-shadow: none;
 }
 
 .btn-2:hover {
