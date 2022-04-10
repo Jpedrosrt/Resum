@@ -45,14 +45,17 @@ function game(aux) {
             
         for (var i = 0; i < box.length; i++) {
             box[i].addEventListener("click", (e) => {
-                
-                var p = document.createElement("p")
-                p.append(op.innerHTML)
-                e.target.append(p)
-                if (op.innerHTML == 'X') {
-                    e.target.style.color = "#ff96ad"
-                } else {
-                    e.target.style.color = "#5CE672"
+                console.log(e.target.classList.contains('mark'))
+                if(!(box[i].classList.contains('mark'))) {
+                    var p = document.createElement("p")
+                    p.append(op.innerHTML)
+                    e.target.append(p)
+                    e.target.classList.add('mark')
+                    if (op.innerHTML == 'X') {
+                        e.target.style.color = "#ff96ad"
+                    } else {
+                        e.target.style.color = "#5CE672"
+                    }
                 }
             })
         }
