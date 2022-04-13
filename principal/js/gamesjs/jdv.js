@@ -21,37 +21,37 @@ for (var i = 0; i < btn.length; i++) {
                 pc.append('X')
                 pc.style.color = "#ff96ad"
             }
-            aux = 1
-            game(aux)
+            game(e.target.innerHTML)
         } else { 
             e.target.className += "op"
             e.path[1].className += "escon"
             turn.classList.remove("escon")
             player.append(e.target.innerHTML)
-            aux = 1
-            game(aux)
+            game(e.target.innerHTML)
         }
     })
 }
 
 var refre = document.querySelector("#refre")
 refre.addEventListener("click", (e) => location.reload())
+
 function game(aux) {
-    console.log(aux)
-    if (aux == 1) {
-        const op = window.document.querySelector('.op')
+    if (aux == 'X' || aux == 'O') {
         
-        const box = window.document.querySelectorAll('.box')
-            
+        const box = window.document.querySelectorAll('.box')  
+        let aux2 = ['']
+
         for (var i = 0; i < box.length; i++) {
             box[i].addEventListener("click", (e) => {
-                console.log(e.target.classList.contains('mark'))
-                if(!(box[i].classList.contains('mark'))) {
-                    var p = document.createElement("p")
-                    p.append(op.innerHTML)
+                console.log(aux2)
+                console.log(aux2.includes(e.target.id))
+                if(!aux2.includes(e.target.id)) {
+                    let p = document.createElement("p")
+                    p.append(aux)
                     e.target.append(p)
-                    e.target.classList.add('mark')
-                    if (op.innerHTML == 'X') {
+                    aux2.push(e.target.id)
+                    console.log(aux2)
+                    if (aux == 'X') {
                         e.target.style.color = "#ff96ad"
                     } else {
                         e.target.style.color = "#5CE672"
@@ -59,6 +59,10 @@ function game(aux) {
                 }
             })
         }
-        
+        pc(aux)
     }
+}
+
+function pc(aux) {
+    
 }

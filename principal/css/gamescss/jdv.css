@@ -8,6 +8,10 @@
     user-select: none;
 }
 
+body {
+    background-color: lightgrey;
+}
+
 .option {
     width: 200px;
     height: 100px;
