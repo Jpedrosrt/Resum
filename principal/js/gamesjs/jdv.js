@@ -76,12 +76,13 @@ function pcturn(aux, aux2) {
     }
     let a = aux2.map((x) => Number(x[1]))
     console.log(a)
-    let b = Math.round(Math.random() * 8 ) + 1
-    while(a.includes(b)) {
-        b = Math.round(Math.random()*100) % 8 + 1
+    let b
+    while(b == undefined) {
+        b = Math.floor(Math.random() * 8 ) + 1
+        if (a.includes(b)) {
+            b = undefined
+        }
     }
-    console.log(b)
-    console.log(boxs[b])
     aux2.push()
     colc(aux, boxs[b], aux2)
 
