@@ -88,7 +88,7 @@ body {
 
 .player2 {
     width: 100px;
-    margin: auto 10px auto 10px;
+    margin: auto 10px auto 0px;
     border-right: 1px;
     border-right-style: solid;
     border-right-color: gray;
@@ -96,7 +96,7 @@ body {
 
 .pc {
     width: 100px;
-    margin: auto 10px auto 10px;
+    margin: auto 10px 0 0px;
     border-right: 1px;
     border-right-style: solid;
     border-right-color: gray;
