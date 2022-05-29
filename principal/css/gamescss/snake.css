@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas:
+    ". top_info"
+    "side_info canvas"
+    ;
+}
+
+.side_info {
+    grid-area: side_info;
+    background-color: brown;
+    height: 500px;
+}
+
+.top_info {
+    height: 60px;
+    width: 700px;
+    grid-area: top_info;
+    background-color: cadetblue;
+}
+
+.canvas {
+    grid-area: canvas;
+}
