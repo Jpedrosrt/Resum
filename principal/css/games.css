@@ -1,3 +1,8 @@
+.games {
+    display: flex;
+    gap: 5px;
+}
+
 .game {
     background-color: lightgrey;
     width: 80px;
