@@ -52,6 +52,13 @@
     background-repeat: no-repeat;
 }
 
+.pr3 {
+    background-image: url(../img/projeto3.png);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .detalhes {
     color: var(--cor4);
     text-align: center;
