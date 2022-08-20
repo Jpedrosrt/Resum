@@ -1,4 +1,4 @@
-.contato { /* REMOVER DEPOIS */
+.contato { 
     height: fit-content;
     background-color: var(--cor0);
     margin: 0;
@@ -6,11 +6,11 @@
 
 #linksfooter {
     list-style: none;
-    font-size: 35px;
-    padding: 2%;
+    font-size: 25px;
+    padding: 1px;
     display: flex;
     flex-wrap: wrap;
-    gap: 25%;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -21,7 +21,6 @@
 .link a{
     color: var(--cor4);
 }
-
 
 .link:hover a {
     color: var(--cor3);
